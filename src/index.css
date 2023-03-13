@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+background-color: lightgray;
+
+}
+
+
+.link i{
+  position: absolute;
+  top: 2.7rem;
+}
+.link div{
+  position: relative;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  background-color: gray;
+  z-index: 1;
+  top: 1.3rem;
+  left: .8rem;
+}
+
+.link p{
+  position: relative;
+  text-align: center;
+  top: -.3rem;
+  
+}
+
+.link:hover{
+  color: teal;
+  transition:  800ms;
+
+}
+
+.link.active{
+  color: teal;
+  transition: 800ms;
+  
+  
+}
+.Products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.Product{
+  width: 25%;
+  height: 67vh;
+}
+
+.Product:hover{
+  width: 26%;
+  transition: 1s;
+}
+
+
+
+.CartList{
+  display: flex;
+  justify-content:left;
+  height: 90px;
+  width: 600px;
+  text-align: center;
+  margin: auto 3rem;
+  margin-bottom: 3rem;
+  align-items: center;
+  border-radius: 12px;
+
+}
+
+.CartList .desc{
+  display: flex ;
+  position: absolute;
+}
+
+.CartList img{
+  height: 11.7vh;
+  margin-right: 2px;
+  border-radius: 12px;
+}
+
+.CartList i{
+  font-size: 1.8rem;
+  color: teal;
+  
+}
+.CartList .btn{
+  margin-top: 7px;
+  width: 17px;
+  display: flex;
+  flex-direction:column; 
+  
+  
+}
+.CartList .titel{
+  margin-right: .7rem;
+  
+  
+}
+.CartList .btn i{
+  
+  margin: -7.5px;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.CartList img{
+  width: 100px;
+}
+
+.Footer{
+
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
